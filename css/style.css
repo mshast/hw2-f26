@@ -26,8 +26,10 @@ p{
 
 img{
     width: 250px;
-    align-items: center;
     border: #ffffff 10px dashed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div{
@@ -89,4 +91,12 @@ footer{
     background: #000000;
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 255, 1) 25%, rgba(0, 102, 255, 1) 70%, rgba(0, 0, 0, 1) 100%);
     border: 5px solid #ffffff;
+}
+
+footer > p{
+    text-align: right;
+    size: 20px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
